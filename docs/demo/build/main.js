@@ -268,7 +268,7 @@ var Morse = /** @class */ (function () {
                 result += _this.textToMorseMap[word.charAt(i)];
                 result += ' ';
             }
-            result += '     ';
+            result += '    ';
         });
         console.log(result);
         return result;
