@@ -31,7 +31,7 @@ export class HomePage {
   }
 
   TranslateToEnglish(){
-     Morse.ToEnglish(this.InputText);
+    this.OutputText =  Morse.ToEnglish(this.InputText);
   }
 
   TranslateToMorse(){
